@@ -39,6 +39,9 @@ ul {
   line-height: 1.07143;
   text-align: center;
   color: #fff;
+}
+
+.title-text {
   background: #2e2f42;
 }
 
@@ -60,6 +63,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .text {
@@ -69,6 +73,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .team {
@@ -80,4 +85,9 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-align: center;
+  background: #f4f4fd;
+}
+
+.ourportfolio .ul {
+  text-align: left;
 }
