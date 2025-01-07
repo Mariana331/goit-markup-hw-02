@@ -11,32 +11,47 @@ ul {
   list-style-type: none;
 }
 
-.nav-post {
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-nav {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
 }
-
-.accent {
-  color: #4d5ae5;
+span {
+  color: #2e2f42;
 }
-
-.nav-ul .text {
+.header-menu .menu {
   font-weight: 500;
   font-size: 16px;
+  color: #2e2f42;
 }
 
-.contacts-ul .text {
+.contacts .contacts-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
 
-.title {
+.section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -44,11 +59,11 @@ ul {
   color: #fff;
 }
 
-.title-text {
+.section {
   background: #2e2f42;
 }
 
-.button {
+.section-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -58,19 +73,11 @@ ul {
   background: #4d5ae5;
 }
 
-.main-text {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.team-title {
   text-align: center;
 }
 
-.text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.team-text {
   text-align: center;
 }
 
