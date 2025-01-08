@@ -59,6 +59,7 @@ ul {
   line-height: 1.07;
   color: #fff;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section {
@@ -105,6 +106,7 @@ ul {
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 .team-list {
   background-color: #ffffff;
