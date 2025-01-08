@@ -21,19 +21,18 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.colo: {
+.header-accent {
   color: #2e2f42;
 }
 
-.header-link .link {
+.header-link .link-li {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.header-link .link-li {
+.header-link .link {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
@@ -46,15 +45,27 @@ ul {
   color: #404bbf;
 }
 
-.contacts {
-  font-style: normal;
-}
-.contacts-text {
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+}
+
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: #404bbf;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
 }
 
 .section-title {
@@ -80,6 +91,24 @@ ul {
   background: #4d5ae5;
   cursor: pointer;
 }
+.section-btn:hover,
+.section-btn:focus {
+  background-color: #404bbf;
+}
+.section-info {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-info-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .ourteam {
   background-color: #f4f4fd;
 }
@@ -92,16 +121,26 @@ ul {
   text-align: center;
   background: #f4f4fd;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
   background-color: #ffffff;
 }
 
 .team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-align: center;
 }
 
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-align: center;
 }
 
