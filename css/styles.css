@@ -53,28 +53,19 @@ ul {
   color: #404bbf;
 }
 
-.contact-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 .section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   color: #fff;
   letter-spacing: 0.02em;
 }
 
-.effective {
+.section {
   background-color: #2e2f42;
 }
 
-.effective-btn {
+.section-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,8 +75,8 @@ ul {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.effective-btn:hover,
-.effective-btn:focus {
+.section-btn:hover,
+.section-btn:focus {
   background-color: #404bbf;
 }
 .section-info {
@@ -111,7 +102,6 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
@@ -126,7 +116,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
 }
 
 .team-text {
@@ -134,7 +123,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
 .ourportfolio {
