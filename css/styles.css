@@ -70,11 +70,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.section {
+.effective {
   background-color: #2e2f42;
 }
 
-.section-btn {
+.effective-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,8 +84,8 @@ ul {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.section-btn:hover,
-.section-btn:focus {
+.effective-btn:hover,
+.effective-btn:focus {
   background-color: #404bbf;
 }
 .section-info {
